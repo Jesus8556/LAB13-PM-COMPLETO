@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".verPelicula">
+
+    <TextView
+        android:id="@+id/lblUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#23BFAD"
+        android:gravity="center"
+        android:text="AGREGAR USUARIO"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lblId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID:" />
+
+    <EditText
+        android:id="@+id/txtId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/lblCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categoria" />
+
+    <Spinner
+        android:id="@+id/cmbCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/lblDuracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duracion" />
+
+    <EditText
+        android:id="@+id/txtDuracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/lblImagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Imagen" />
+
+    <EditText
+        android:id="@+id/txtImagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnActivar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activar Actualizar" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar" />
+</LinearLayout>
